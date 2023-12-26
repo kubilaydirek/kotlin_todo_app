@@ -3,10 +3,10 @@ package com.example.todoapp.view
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.Navigation
-import com.example.todoapp.MainFragmentDirections
 import com.example.todoapp.R
 import com.example.todoapp.TodoModel
 import com.example.todoapp.databinding.ActivityMainBinding
+import com.example.todoapp.fragment.MainFragmentDirections
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -17,10 +17,9 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.imageView2.setOnClickListener {
+        binding.addTodoImage.setOnClickListener {
             val action = MainFragmentDirections.actionMainFragmentToAddTodoFragment()
-            Navigation.findNavController(this@MainActivity, R.id.fragmentContainerView)
-                .navigate(action)
+            Navigation.findNavController(this@MainActivity, R.id.fragmentContainerView).navigate(action)
         }
     }
 }

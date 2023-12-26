@@ -19,7 +19,7 @@
         app:title="MyTODOList" />
 
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/addTodoImage"
         android:layout_width="42dp"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
