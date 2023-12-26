@@ -9,8 +9,8 @@ import android.widget.Toast
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 
-class TodoRecyclerView(private val mContext: Context, private val todoList: List<TodoModel>) :
-    RecyclerView.Adapter<TodoRecyclerView.TodoViewHolder>() {
+class TodoRVAdapter(private val mContext: Context, private val todoList: List<TodoModel>) :
+    RecyclerView.Adapter<TodoRVAdapter.TodoViewHolder>() {
     inner class TodoViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val titleText: TextView
         val cardView: CardView

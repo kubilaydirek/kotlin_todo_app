@@ -1,8 +1,11 @@
-package com.example.todoapp
+package com.example.todoapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.navigation.Navigation
+import com.example.todoapp.MainFragmentDirections
+import com.example.todoapp.R
+import com.example.todoapp.TodoModel
 import com.example.todoapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

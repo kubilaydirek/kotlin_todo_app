@@ -1,4 +1,4 @@
-package com.example.todoapp
+package com.example.todoapp.fragment
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import com.example.todoapp.TodoModel
 import com.example.todoapp.databinding.FragmentAddTodoBinding
+import com.example.todoapp.view.MainActivity
 
 
 class AddTodoFragment : Fragment() {
