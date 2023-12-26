@@ -1,4 +1,5 @@
 #Hello my friend
+
 This repo is my first project in Kotlin language.
 I would be very happy if you could send me an issue about improving myself.
 I tried to use Fragment, navigation, view binding in this project :)
