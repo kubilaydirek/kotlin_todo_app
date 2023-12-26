@@ -15,6 +15,7 @@ class TodoRVAdapter(private val mContext: Context, private val todoList: List<To
         val titleText: TextView
         val cardView: CardView
 
+
         init {
             titleText = view.findViewById(R.id.titleTextView)
             cardView = view.findViewById(R.id.card_view)
